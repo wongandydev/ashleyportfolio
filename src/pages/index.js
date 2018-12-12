@@ -2,16 +2,15 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
+import ReasonToLiveImage from '../images/reasonstolive.jpg'
 
 const IndexPage = () => (
   <Layout>
     <h1>This will be Ashley's Site</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
-    </div>
+    
+    <img src={ReasonToLiveImage} alt="a book" />
+
+    <div> Ashley is a creatitve writer and artist.</div>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
