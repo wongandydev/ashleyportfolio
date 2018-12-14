@@ -1,10 +1,9 @@
 #content {
     /* width: 100vh; */
     text-align: center;
-    display: block;
 }
 
-#content a {
+a {
     cursor: default;
 }
 
@@ -16,8 +15,8 @@
 }
 
 #reasonstolive img {
-    width: 300px;
-    height: 400px;
+    width: 50vw;
+    height: 35vh;
 }
 
 #drawing {
@@ -28,7 +27,23 @@
 }
 
 #drawing img {
-    width: 300px;
-    height: 300px;
+    width: 40vw;
+    height: 30vh;
 }
 
+footer {
+    text-align: center;
+    color: rgb(69,69,69);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    margin: 0px auto;
+    padding-top: 10px;
+}
+
+footer img {
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+}

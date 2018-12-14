@@ -6,6 +6,8 @@ import './index.css'
 import Layout from '../components/layout'
 import ReasonToLiveImage from '../images/reasonstolive.jpg'
 import DrawingPortfolio from '../images/hina.jpg'
+import instagram from '../images/instagramlogo.svg'
+import twitter from '../images/twitterlogo.svg'
 
 const IndexPage = () => (
   <Layout>    
@@ -20,6 +22,12 @@ const IndexPage = () => (
       </div>
     </div>
     
+    <footer>
+      <h3> Links to Ashley's Social Media </h3>
+      <a target='_blank' href='https://www.instagram.com/pyonanimates/'><img src={instagram} /></a>
+      <a target='_blank' href='https://www.twitter.com/pyonanimates/'><img src={twitter} /></a>
+    </footer>
+
     {/* <Link id='linktopage2' to="/page-2/">Go to page 2</Link> */}
   </Layout>
 )
