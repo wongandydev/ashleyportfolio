@@ -20,6 +20,16 @@ body {
     position: relative;
     text-align: center;
     padding: 15px;
+    
+}
+
+h2 {
+    color: white;
+    font-size: 33px;
+}
+
+#artwork h4 {
+    color: white;
 }
 
 a {
@@ -32,15 +42,6 @@ a:active {
 }
 
 a:visited {
-    color: white;
-}
-
-h2 {
-    color: white;
-    font-size: 33px;
-}
-
-h4 {
     color: white;
 }
 
