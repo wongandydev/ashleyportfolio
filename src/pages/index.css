@@ -1,37 +1,77 @@
-#content {
-    height: 80vh;
+body {
+    background-color: aquamarine;
+}
+
+#books {
+    background-color: rgb(194,98,255);
+    position: relative;
     text-align: center;
+    padding: 15px;
+    margin: 0px;
+}
+
+#books p {
+    font-style: italic;
+}
+
+#artwork {
+    background-color: rgb(232,89,120);
+    margin-top: 0px; 
+    position: relative;
+    text-align: center;
+    padding: 15px;
 }
 
 a {
+    color: white;
     cursor: default;
 }
 
-#reasonstolive {
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    padding: 5px;
+a:active {
+    color: white;
 }
 
-#reasonstolive img {
+a:visited {
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 33px;
+}
+
+p {
+    color: white;
+}
+
+#book {
+    display: inline-block;
+    width: 300px;
+    padding: 5px;
+    margin: 0px 5px 10px 5px;
+}
+
+#book img {
     width: 50vw;
     height: 28vh;
 }
 
-#reasonstolive img:hover {
+#book img:hover {
     opacity: 0.9;
 }
 
 #drawing {
     display: inline-block;
-    width: 300px;
-    height: 300px;
+    width: 22vw;
+    min-width: 200px;
+    max-width: 300px;
+    height: 12vh;
     padding: 5px;
 }
 
 #drawing img {
-    width: 38vw;
+    width: 80vw;
+    min-width: 200px;
     height: 25vh;
 }
 
